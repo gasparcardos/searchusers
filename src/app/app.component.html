@@ -1,0 +1,10 @@
+<div style="text-align: center;">
+  <h1>Proyecto de busqueda de usuarios</h1>
+  <label class="text-center">Ingrese un nombre de usuario:</label>
+  <div>
+    <input type="text" id="txtBuscar" name="txtBuscar" [(ngModel)]="txtBuscar">
+  </div>
+  <button type="button" (click)="initBuscar()">Buscar Usuario</button>
+</div>
+
+<router-outlet></router-outlet>
